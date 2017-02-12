@@ -1,0 +1,218 @@
+body {
+    background: #fff;
+}
+
+.navbar.nav_title {
+    background: #7cc576;
+}
+
+.left_col {
+    background: #fff;
+}
+
+.nav.side-menu li {
+    border-left: 10px solid transparent;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid transparent;
+}
+
+.nav.side-menu li:last-child {
+    border-bottom: 1px solid #ccc;
+}
+
+.nav.side-menu> li.current-page, .nav.side-menu> li.active {
+    border-left: 10px solid #7cc576;
+    border-right: none;
+}
+
+.nav.side-menu> li.active > a {
+    background: #fff;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.nav.side-menu li a, .nav.side-menu li a:hover {
+    color: #3b3b3b !important;
+}
+
+.profile_info h2 {
+    font-size: 25px;
+    color: #525252;
+    font-weight: 700;
+}
+
+.nav-sm .nav.side-menu {
+    margin-top: 0;
+}
+
+.nav-sm .nav.side-menu li {
+    border: none;
+}
+
+.nav-sm .site_title {
+    display: none;
+}
+
+.nav-sm .logo_small_sidebar,
+.nav-md .logo_small_sidebar,
+.nav-lg .logo_small_sidebar {
+    display: none;
+}
+
+.nav-sm .logo_small_sidebar {
+    display: block;
+    width: 50px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.img-circle.profile_img {
+    max-width: 56px;
+    max-height: 56px;
+    min-width: 56px;
+    min-height: 56px;
+}
+
+.green-background {
+    background: #7CC576;
+}
+
+.container {
+    font-family: Open Sans;
+}
+
+.event-container {
+    margin-top: 10px;
+}
+
+.event-container .photo {
+    background-size: cover;
+    background-position: 50% 70%;
+}
+
+.event-container .photo img {
+    visibility: hidden;
+}
+
+ul.msg_list li a .time {
+    right: 10px;
+}
+
+.ended-events-top {
+    position: relative;
+}
+
+.approve-reject-event {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    top: 0;
+    display: none;
+    cursor: pointer;
+}
+
+.ended-events-top:hover .approve-reject-event {
+    display: block;
+}
+
+.event-view {
+    width: 60%;
+    border: 1px solid #ccc;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.event-attend {
+    width: 60%;
+    border: 1px solid #7CC576;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    background: #7CC576;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.event-view a:visited,
+.event-attend a:visited,
+.event-view a:active,
+.event-attend a:active,
+.event-view a,
+.event-attend a {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding: 10px;
+}
+
+.event-view:hover {
+    background: #fff;
+}
+
+.event-view:hover a{
+    color: #000 !important;
+}
+
+.event-attend:hover a{
+    color: #000 !important;
+}
+
+.event-attend:hover a.no-hover {
+    color: #fff !important;
+    cursor: default;
+}
+
+.notification-overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: rgba(160,160,160,.7);
+    height: 100%;
+    display: none;
+}
+
+#menu1 li:hover .notification-overlay {
+    display: block;
+}
+
+.notification-overlay .half {
+    width: 50%;
+    float: left;
+    position: relative;
+    display: inline-flex;
+    padding: 14px;
+}
+
+.notification-overlay .action {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    background: #7CC576;
+    color: #fff;
+    cursor: pointer;
+}
+
+.notification-overlay .action a {
+    color: #fff;
+}
+
+.notification-overlay .action.white a {
+    color: #000;
+}
+
+.notification-overlay .action.white {
+    background: #fff;
+    color: #000;
+}

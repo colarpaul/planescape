@@ -1,0 +1,92 @@
+.input_text {
+    width: 40% !important;
+    border-radius: 2px !important;
+}
+
+.input_date {
+    width: 38% !important;
+    border-radius: 2px;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.activity_border {
+    border: 1px solid #2A3F54 !important;
+    border-radius: 2px;
+    padding: 0;
+    margin: 15px;
+}
+
+.button_activity {
+    background: #7CC576 !important;
+    color: #ECF0F1 !important;
+    padding: 8px;
+    border: 1px solid rgb(103, 192, 117) !important;
+    border-radius: 2px;
+}
+
+.input-group-addon {
+    background-color: #7CC576 !important;
+    border: 1px solid rgb(103, 192, 117) !important;
+    color: #ECF0F1 !important;
+}
+
+.textarea_activity {
+    resize: vertical;
+}
+
+.event-invite-section {
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+.event-questions-section {
+    background: #fff;
+}
+
+.event-question {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+ol.answers_group{
+   padding-left: 30px;
+    margin-top: 10px;
+}
+
+.event-answer {
+
+}
+
+.event-answer .badge {
+    margin-left: 10px;
+    background: #7CC576;
+    cursor: pointer;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6B6865;
+    margin-left: 30px;
+    margin-top: 0;
+}
+
+.event-invite-section-content {
+    margin: 20px;
+    margin-top: 10px;
+}
+
+.float{
+    float:left;
+}
+.margin_button{
+    margin-left: 20px;
+}
+
+#add_answer {
+    cursor: pointer;
+}

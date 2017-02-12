@@ -1,0 +1,11 @@
+.button_activity{
+    background: #7CC576 !important;
+    color: #ECF0F1 !important;
+    padding: 8px;
+    border: 1px solid rgb(103, 192, 117) !important;
+    border-radius: 2px;
+}
+
+.avatar-view {
+    background-size: cover;
+}
